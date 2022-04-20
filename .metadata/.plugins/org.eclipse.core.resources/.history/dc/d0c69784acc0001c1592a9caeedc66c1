@@ -1,0 +1,21 @@
+package exerciseEntities;
+
+public class Product {
+
+	private String name;
+	private double price;
+	
+	public Product() {
+		super();
+	}
+
+	public Product(String name, double price) {
+		this.name = name;
+		this.price = price;
+	}
+	
+	public double priceTag () {
+		return price;
+	}
+	
+}
