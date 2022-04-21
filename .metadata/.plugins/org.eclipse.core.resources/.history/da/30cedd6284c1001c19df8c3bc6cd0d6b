@@ -1,0 +1,35 @@
+package f_exerciseEntitiesContribution;
+
+public class PessoaJuridica {
+	
+	private int numeroFuncionarios;
+	
+	public PessoaJuridica() {
+		super();
+	}
+
+	public PessoaJuridica(int numeroFuncionarios) {
+		super();
+		this.numeroFuncionarios = numeroFuncionarios;
+	}
+
+	public int getNumeroFuncionarios() {
+		return numeroFuncionarios;
+	}
+
+	public void setNumeroFuncionarios(int numeroFuncionarios) {
+		this.numeroFuncionarios = numeroFuncionarios;
+	}
+	
+	@Override
+	public double imposto() {
+		if (getNumeroFuncionarios() <= 10) {
+			return getRendaAnual() * 0.16; 
+		}
+		else {
+			return getRendaAnual() * 0.25 + getGastosSaude() * 0.5; 
+		}
+	}
+	
+
+}
