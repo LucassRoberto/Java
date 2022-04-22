@@ -44,7 +44,8 @@ public class Program {
 			System.out.print("Pessoa física ou jurídica (f/j)?");
 			char tipo = sc.next().charAt(0);
 			System.out.print("Nome: ");
-			String nome = sc.next();
+			sc.nextLine();
+			String nome = sc.nextLine();
 			System.out.print("Renda anual: ");
 			double rendaAnual = sc.nextDouble();
 			
