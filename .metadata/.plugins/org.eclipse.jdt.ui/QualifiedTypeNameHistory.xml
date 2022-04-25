@@ -5,8 +5,8 @@
     <fullyQualifiedTypeName name="exerciseEntities.ImportedProduct"/>
     <fullyQualifiedTypeName name="exerciseEntities.UsedProduct"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="exception.BusinessException"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
 </qualifiedTypeNameHistroy>
